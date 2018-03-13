@@ -1,8 +1,8 @@
-var i18nText = function(inputFunction, inputString) {
-  function output(){
-    
+var i18nText = function(inputFunction, text) {
+  var result = function(name) {
+    return fonctionInit(text, name)
   }
-  return output
+  return result
 }
 
 module.exports = {
