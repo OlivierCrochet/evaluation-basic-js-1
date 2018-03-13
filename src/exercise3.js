@@ -1,5 +1,7 @@
-var applyMap = function() {
-  // Your future job begins here ...
+var applyMap = function(inputValues, inputMaps) {
+  var output = []
+  
+  return output
 }
 
 module.exports = {
