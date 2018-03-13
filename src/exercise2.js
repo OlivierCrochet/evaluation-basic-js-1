@@ -1,5 +1,9 @@
 var mapCustomer = function(customer) {
-  // Your future job begins here ...
+    let output = customer
+    for( let i = 0; i < customer.products.length; i++){
+      output.moneySpent += customer.products[i].price
+    }
+    return output
 }
 
 module.exports = {
